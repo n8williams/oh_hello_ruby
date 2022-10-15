@@ -3,4 +3,5 @@ Rails.application.routes.draw do
 
   get "/articles", to: "articles#index"
   get "/articles/hello", to: "articles#hello"
+  get "/articles/sharks_from_csv", to: "articles#sharks_from_csv"
 end
